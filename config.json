@@ -1,6 +1,6 @@
 {
     "title": "阿晴的博客Asunny",
-    "subTitle": "技术宅的小知识",
+    "subTitle": "一个技术宅的小小知识库",
     "avatarUrl": "https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/asunny%E9%BB%91%E8%BE%B9.png",
     "GMEEK_VERSION": "last",
     "homeUrl": "http://b.asunny.top/",
@@ -28,8 +28,8 @@
     "dayTheme": "light",
     "nightTheme": "dark_colorblind",
     "urlMode": "pinyin",
-    "style": "",
-    "script": "",
+    "style": "https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202406061941559.css",
+    "script": "https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js",
     "indexStyle": "",
     "indexScript": "",
     "showPostSource": 1,
