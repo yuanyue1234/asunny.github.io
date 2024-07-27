@@ -212,3 +212,10 @@ muted //静音
 poster //第一帧加载之前的预览图
 
 ```
+
+# 补充
+
+*插入音频：*
+```
+Gmeek-html<audio controls><source src=" " type="audio/mpeg"></audio>
+```
