@@ -1,6 +1,38 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "title": "阿晴的博客Asunny",
+    "subTitle": "技术宅的小知识",
+    "avatarUrl": "https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/asunny%E9%BB%91%E8%BE%B9.png",
+    "GMEEK_VERSION": "last",
+    "homeUrl": "http://b.asunny.top/",
+    "ogImage": "https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/01.png",
+    "onePageListNum": 15,
+    "singlePage": [
+        "about"
+    ],
+    "iconList": {
+        "music": "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z"
+    },
+    "exlink": {
+        "music": "https://music.meekdai.com"
+    },
+    "commentLabelColor": "#006b75",
+    "yearColorList": [
+        "#bc4c00",
+        "#0969da",
+        "#1f883d",
+        "#A333D0"
+    ],
+    "i18n": "CN",
+    "UTC": 8,
+    "themeMode": "manual",
+    "dayTheme": "light",
+    "nightTheme": "dark_colorblind",
+    "urlMode": "pinyin",
+    "style": "",
+    "script": "",
+    "indexStyle": "",
+    "indexScript": "",
+    "showPostSource": 1,
+    "rssSplit": "sentence",
+    "bottomText": "转载请注明出处",
 }
