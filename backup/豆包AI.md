@@ -1,10 +1,7 @@
 ！本文已使用豆包进行润色
-温柔桃子语音朗读：`Gmeek-html<audio controls><source src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/%E8%B1%86%E5%8C%85AI_%5Bcut_270sec%5D.mp3" type="audio/mpeg"></audio>`
+温柔桃子语音朗读：
+`Gmeek-html<audio controls><source src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/%E8%B1%86%E5%8C%85AI_%5Bcut_270sec%5D.mp3" type="audio/mpeg"></audio>`
 
-
-[下载音频](https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/%E8%B1%86%E5%8C%85AI_%5Bcut_270sec%5D.mp3)
-![[豆包AI_[cut_270sec].mp3]]
----
 
 ## 前言
 
