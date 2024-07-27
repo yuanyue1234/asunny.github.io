@@ -1,5 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>阿晴的博客Asunny</title><link>http://b.asunny.top/</link><description>技术宅的小知识</description><copyright>阿晴的博客Asunny</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/asunny%E9%BB%91%E8%BE%B9.png</url><title>avatar</title><link>http://b.asunny.top/</link></image><lastBuildDate>Sat, 27 Jul 2024 16:48:48 +0000</lastBuildDate><managingEditor>阿晴的博客Asunny</managingEditor><ttl>60</ttl><webMaster>阿晴的博客Asunny</webMaster><item><title>【转】Gmeek博客的搭建与使用</title><link>http://b.asunny.top//post/%E3%80%90-zhuan-%E3%80%91Gmeek-bo-ke-de-da-jian-yu-shi-yong.html</link><description>转载自：[Gmeek博客的使用方法](https://blog.liyifan.xyz/post/yong-Gmeek-da-jian-yi-ge-shu-yu-zi-ji-de-bo-ke.html)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>阿晴的博客Asunny</title><link>http://b.asunny.top/</link><description>技术宅的小知识</description><copyright>阿晴的博客Asunny</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/asunny%E9%BB%91%E8%BE%B9.png</url><title>avatar</title><link>http://b.asunny.top/</link></image><lastBuildDate>Sat, 27 Jul 2024 16:49:16 +0000</lastBuildDate><managingEditor>阿晴的博客Asunny</managingEditor><ttl>60</ttl><webMaster>阿晴的博客Asunny</webMaster><item><title>Django 项目部署到 liunx 服务器</title><link>http://b.asunny.top//post/Django%20-xiang-mu-bu-shu-dao-%20liunx%20-fu-wu-qi.html</link><description>## 一、准备工作&#13;
+&#13;
+### 1. 检查虚拟环境目录&#13;
+&#13;
+首先，确认虚拟环境目录是否存在，并且 `python` 可执行文件也存在：&#13;
+&#13;
+```bash&#13;
+ls /root/Django/venv/bin/&#13;
+```&#13;
+&#13;
+### 2. 激活虚拟环境&#13;
+&#13;
+尝试手动激活虚拟环境：&#13;
+&#13;
+```bash&#13;
+source 路径/.venv/Scripts/activate&#13;
+```&#13;
+&#13;
+### 3. 虚拟环境与操作系统&#13;
+&#13;
+通常，很多问题是由虚拟环境导致的。</description><guid isPermaLink="true">http://b.asunny.top//post/Django%20-xiang-mu-bu-shu-dao-%20liunx%20-fu-wu-qi.html</guid><pubDate>Sat, 27 Jul 2024 16:48:56 +0000</pubDate></item><item><title>【转】Gmeek博客的搭建与使用</title><link>http://b.asunny.top//post/%E3%80%90-zhuan-%E3%80%91Gmeek-bo-ke-de-da-jian-yu-shi-yong.html</link><description>转载自：[Gmeek博客的使用方法](https://blog.liyifan.xyz/post/yong-Gmeek-da-jian-yi-ge-shu-yu-zi-ji-de-bo-ke.html)&#13;
 感谢作者，同样感谢这个博客系统，推荐大家试一试，搭建一个自己的博客。</description><guid isPermaLink="true">http://b.asunny.top//post/%E3%80%90-zhuan-%E3%80%91Gmeek-bo-ke-de-da-jian-yu-shi-yong.html</guid><pubDate>Sat, 27 Jul 2024 16:48:20 +0000</pubDate></item><item><title>豆包AI</title><link>http://b.asunny.top//post/dou-bao-AI.html</link><description>！本文已使用豆包进行润色&#13;
 温柔桃子语音朗读：&#13;
 `Gmeek-html&lt;audio controls&gt;&lt;source src='https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/%E8%B1%86%E5%8C%85AI_%5Bcut_270sec%5D.mp3' type='audio/mpeg'&gt;&lt;/audio&gt;`&#13;
