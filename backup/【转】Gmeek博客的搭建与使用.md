@@ -219,3 +219,4 @@ poster //第一帧加载之前的预览图
 ```
 Gmeek-html<audio controls><source src=" " type="audio/mpeg"></audio>
 ```
+[官方进价教程](https://blog.meekdai.com/tag.html#Gmeek)  
