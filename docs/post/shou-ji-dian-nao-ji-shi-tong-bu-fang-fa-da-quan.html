@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/asunny%E9%BB%91%E8%BE%B9.png"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="### 引言
+及时同步是在使用手机和电脑时更为高效的方式，有诸多操作场景可体现其优势，例如电脑登录网站需手机验证码；电脑或手机端需将另一端的图片发送给他人；某些文字或图片仅存在于电脑或手机上；实现电脑环境与手机环境的无缝切换等。">
+<meta property="og:title" content="手机电脑及时同步方法大全">
+<meta property="og:description" content="### 引言
+及时同步是在使用手机和电脑时更为高效的方式，有诸多操作场景可体现其优势，例如电脑登录网站需手机验证码；电脑或手机端需将另一端的图片发送给他人；某些文字或图片仅存在于电脑或手机上；实现电脑环境与手机环境的无缝切换等。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://b.asunny.top//post/shou-ji-dian-nao-ji-shi-tong-bu-fang-fa-da-quan.html">
+<meta property="og:image" content="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/01.png">
+<title>手机电脑及时同步方法大全</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">手机电脑及时同步方法大全</h1>
+<div class="title-right">
+    <a href="http://b.asunny.top/" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/yuanyue1234/asunny.github.io/issues/7" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h3>引言</h3>
+<p>及时同步是在使用手机和电脑时更为高效的方式，有诸多操作场景可体现其优势，例如电脑登录网站需手机验证码；电脑或手机端需将另一端的图片发送给他人；某些文字或图片仅存在于电脑或手机上；实现电脑环境与手机环境的无缝切换等。(有一种情况至今我仍无法妥善解决，即有些网站需用手机扫描二维码登录，而此时手机却不方便使用。)</p>
+<p>如今，电脑和手机常常相互绑定，难以脱离，因此，及时同步媒体的技术能够减少这方面带来的困扰。</p>
+<h3>隐私问题：</h3>
+<p>在当今的互联网时代，几乎毫无隐私可言。我作为一个默默无闻的小人物，自身信息也没有过多价值，所以对此并非特别在意。当使用同步功能时，会用到其所属公司的服务器，因而跨设备传输的任何内容对他们而言都是透明的。只需注意不要传输个人密码等机密内容即可。</p>
+<h3>你也知道的“笨”办法（QQ 微信）</h3>
+<blockquote>
+<p>手机电脑端，将文件上传到微信、QQ 。</p>
+</blockquote>
+<p>微信有文件传输助手、QQ 有我的电脑，都是可以的，他们也支持手机电脑同时在线，它们也是稳定性最高的办法，不会出错。<br>
+缺点也很多，如果用的是公共电脑，传个文件还需要登录自己的微信 QQ。</p>
+<h3>图片、文本、文件同步（quicekr）</h3>
+<blockquote>
+<p>需要使用 quicker (电脑)和使用飞书作为传输中介，通过调用飞书机器人的 api，直接传送任何文件并发送给飞书账号，手机端也可以发送文件给机器人，实现双向主动同步。</p>
+</blockquote>
+<p><a href="https://getquicker.net/Sharedaction?code=41cb0aff-5728-4b11-c357-08d9a89feebe" rel="nofollow">飞书静默传输 - by 小胖吉 - 动作信息 - Quicker</a> 通过软件“quicker”的一个动作，轻松通过飞书同步文件包括屏幕截图，剪切图片，剪贴文本，或自定义内容。 使用飞书的好处是手机电脑端都可以接收到强推送，当然也可以使用<em>微信静默传输动作</em> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1dfff6309e744e54e4c9bb715e6703cf58c858cf42093ecc101cd7860698814a/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323032353234362e706e67"><img src="https://camo.githubusercontent.com/1dfff6309e744e54e4c9bb715e6703cf58c858cf42093ecc101cd7860698814a/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323032353234362e706e67" alt="image.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202408252025246.png" style="max-width: 100%;"></a></p>
+<h3>图片、文字同步（微信输入法）</h3>
+<blockquote>
+<p>需要手机电脑都使用<em>微信输入法</em>的<strong>跨设备复制粘贴文字和图片、同步词库和常用语</strong>功能，</p>
+</blockquote>
+<p>微信输入法还更新了问 ai 的功能，也是不错，再加上对 qq 微信的支持也比较好，方便使用，能够轻松即时同步文字图片内容。当你在手机或电脑上复制文字或图片时，就已经同步了，即可直接在另一端粘贴。（手机上不能复制图片）。<br>
+我总是用来复制验证码，手机上收到验证码后，直接点击复制按钮即可，电脑上直接就可以粘贴了。（提一嘴：当然电脑上的验证码也可以不用自己看，可以使用文本识别或人工智能服务，一键识别并复制。）</p>
+<h4>使用在线网站剪贴板同步</h4>
+<blockquote>
+<p><a href="https://netcut.cn/" rel="nofollow">网络剪贴板 - 极简的数据暂存和传送工具</a></p>
+</blockquote>
+<p>使用它能够创建一个属于自己的空间，上传一些小文件或文本到这里，只需要找到网页就可以，不需要登录就能使用。<br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/563f45961f0189711bb4c3d204a36f98b094c05ce4d62157394ed3f43ec6307f/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f73637265656c792d313732343539353337323035312e706e67"><img src="https://camo.githubusercontent.com/563f45961f0189711bb4c3d204a36f98b094c05ce4d62157394ed3f43ec6307f/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f73637265656c792d313732343539353337323035312e706e67" alt="screely-1724595372051.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/screely-1724595372051.png" style="max-width: 100%;"></a></p>
+<h3>操作手机、图库</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ea775763d2a47dc22b58cf06f11a9a842251d206b06d783b9eeb679563cf0a85/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323035303637342e706e67"><img src="https://camo.githubusercontent.com/ea775763d2a47dc22b58cf06f11a9a842251d206b06d783b9eeb679563cf0a85/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323035303637342e706e67" alt="image.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202408252050674.png" style="max-width: 100%;"></a></p>
+<blockquote>
+<p>需要手机和电脑同时下载微软的<em>手机连接</em>软件（安卓端叫做：<em>连接至 windows</em>）</p>
+</blockquote>
+<p>你可以通过蓝牙连接的方式，控制手机的<strong>图片、呼叫、短信、音乐</strong><br>
+这样就方便直接在电脑上操作手机的一些按键了，更复杂一点的操作就需要连接 usb 直接操控手机了。日常可直接用这个手机连接。<br>
+我经常用于上课交手机后，可以远程开启免打扰模式。但是不足的是，手机锁屏下的短信验证码会隐藏，因此无法直接通过电脑收取验证码了。<br>
+而且用这个软件后，手机上拍的照片，可以直接复制或保存到电脑上，填补了微信输入法中手机无法同步图片给电脑的坑。我可以更好的写日记了，但需要某图片时，不用打开手机找图片再传电脑，直接一步搞定了。</p>
+<h3>文件同步（云服务）</h3>
+<h4>OneDirve E 5 账号存储（大文件）</h4>
+<blockquote>
+<p>需要 E 5 账号，没有的话也行，但只有 5 GB 的存储空间，E 5 则是 5 TB，（可以通过海鲜市场低价购入或者白嫖账号）</p>
+</blockquote>
+<p>针对许多资源，或是资料，存储到电脑上，手机又不好找，有没有 nas，大容量网盘是最优解，微软的云服务好白嫖且速度快，兼容 office 全家桶，用它更方便。<br>
+平时电脑运行 onedirve 选择同步文档、图片内容。office 办公后的文件默认上传到云文档中。也可手动将资源上传，在云上，手机电脑就都可以访问到了，而且下载速度也特别快。<br>
+平时将各种文件归档收集到云上，已经是我的家常便饭了，有时候电脑不在身边，而又需要一些资料或资源，直接打开云，就可以下载取用了。</p>
+<h4>使用对象存储服务（小文件）</h4>
+<blockquote>
+<p>需要云服务-对象存储服务。电脑使用 picgo 手机使用 pichoro 这两款软件</p>
+</blockquote>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fa13e73704fb3d07d184048b7082bc7538c7b6f8e99d1424d8e88c7cc334f4a7/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323132383333382e706e67"><img src="https://camo.githubusercontent.com/fa13e73704fb3d07d184048b7082bc7538c7b6f8e99d1424d8e88c7cc334f4a7/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323132383333382e706e67" alt="image.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202408252128338.png" style="max-width: 100%;"></a></p>
+<p><strong>对象存储服务是一种云存储服务，提供高可靠性、低成本和多种存储类型，适用于存储和访问任意类型的数据</strong>。<br>
+我腾讯云充了 6 块钱，用了一年了都没用完，一个月就几毛钱不到，使用图床的好处是可复用，可长期访问，不用储存图片，省去了许多储存的时间。<br>
+只需要将图片复制或上传到图床软件，配置好相应的图床工具。<br>
+图床不止可以传图片，也可以传文件，但不能是大文件（除非你钱多），我经常用图床来存储一些 json、js、css 等文本文件。<br>
+而且使用了图床存储后，写 html 也可以直接 link 或 src 图床的对应连接。连文件都不用传，这招我经常用在学校的 html 作业上。<br>
+我将腾讯云的对象存储服务挂载到了 Alist，手机或电脑只要访问 Alist 就可以直接查看过往的所有上传到图床的内容。而基本上用不着这样，有这功夫不如再上传一次到图床上。</p>
+<h4>网盘挂载到 Alist 平台</h4>
+<blockquote>
+<p>需要 Alist 服务，而它需要<em>服务器</em>部署。</p>
+</blockquote>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2d36bb128b9942c1e8475acccfe365a05fb31a370be74307941353e22d19f01c/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323132363031342e706e67"><img src="https://camo.githubusercontent.com/2d36bb128b9942c1e8475acccfe365a05fb31a370be74307941353e22d19f01c/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323132363031342e706e67" alt="image.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202408252126014.png" style="max-width: 100%;"></a><br>
+然后再将我的 OneDirve 云服务挂载到 Alist 上（如果你有多个 E 5 账号的话），之后不仅自己可以取用了，别人也可以通过网站域名访问你的网盘，对方需要什么搜索下载就行了，当一个临时的文件存储服务、一个资源管理系统都可以。<br>
+有一阵子，我甚至用它来当做班级交作业上传服务，大家的作业直接上传到我的网盘，并且可以在线查看。</p>
+<h3>笔记同步</h3>
+<blockquote>
+<p>使用 OneNote 软件记录笔记，实现手机电脑多端同步。</p>
+</blockquote>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b5df46dfab0a5563ea195f1fe9bd009e57a3c5f84f5bcd63dfbd25b7fe054734/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323135313735302e706e67"><img src="https://camo.githubusercontent.com/b5df46dfab0a5563ea195f1fe9bd009e57a3c5f84f5bcd63dfbd25b7fe054734/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323135313735302e706e67" alt="image.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202408252151750.png" style="max-width: 100%;"></a></p>
+<p>它可以<strong>免费实时同步文字、图片、文件等笔记内容</strong>，我会将所有日常复制到有意思的或是有用的内容复制到 onenote 中，它的手机电脑端都可以快捷记录，同步很友好，重点是对所有平台的优化都很好，它的便签功能甚至可以自动记录自己是在哪个网页记录的此内容。<br>
+总之，当我连接上画板或拿起触控笔，他就是一个笔记本，当我使用电脑或手机，他就是个便签本，实时同步的那种。</p>
+<h3>WebDav</h3>
+<blockquote>
+<p>支持其的云存储——坚果云</p>
+</blockquote>
+<p>WebDAV 协议能够实现文件的云存储，可以用来保存文件的配置信息，部分软件支持将内容保存到坚果云中，这样就能实现及时云同步了，但其稳定性不高。<br>
+我不常用它，只用它存储一些配置文件，不过坚果云本身挺好用的，适合手机文件，收集到的文件会上传到坚果云，只需要一个账号，就可以搞定收集到的文件，手机电脑都可以查看或操作文件。</p>
+<h3>互传文件</h3>
+<p>快速的互传文件是一种及时同步。<br>
+有很多这种工具，我就不写了：<a href="https://www.bilibili.com/read/cv35896802/" rel="nofollow">局域网快速互传</a>。<br>
+提一下：ftp 互传（手机需要支持 ftp 互传的文件管理器）、局域网互传（qq 的面对面快传也是它）</p>
+<h4>电脑文件共享</h4>
+<p>我经常使用一个操作，用于将自己的机房作业给同学，只需要将网络发现打开后，共享文件夹内容，然后再用其他机房电脑打开即可。详细操作不赘述了。<br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f4043d81f29ba5e181444c49b12880b31e62e97db63aad43e4eeb8772a576d0e/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323232363132332e706e67"><img src="https://camo.githubusercontent.com/f4043d81f29ba5e181444c49b12880b31e62e97db63aad43e4eeb8772a576d0e/68747470733a2f2f6173756e6e792d313331343133353132392e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f696d672f3230323430383235323232363132332e706e67" alt="image.png" data-canonical-src="https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/202408252226123.png" style="max-width: 100%;"></a><br>
+访问共享文件夹：在 cmd 中输入： <code class="notranslate">ftp://[共享文件的电脑ip地址]</code>，查看 ip 地址：在 cmd 中输入 <code class="notranslate">ipconfig</code> ，不详细赘述。</p>
+<h3>总结</h3>
+<p>我提及的这么多种方式，皆是我常用的实现文件及时同步的手段（其中也包含一些拓展内容）。至于你是否需要这些方式，取决于你的实际需求。它们的作用远不止于此，更多的用途有待你亲自去探索。<br>
+软件只需要做好某个需求就好，而我们使用者需要考虑的事情就很多了。无论采用哪种方法，只要最终能达到预期效果就行。不要在目的达成后就将其弃之如敝屣，对于用得顺手的方法，可以多使用；对于不习惯或者使用频率低的方法，直接弃用即可，切不可贪图那一点方便而勉强自己。所以，我也时常使用一些 “笨” 办法。</p></div>
+<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="http://b.asunny.top/">阿晴的博客Asunny</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","yuanyue1234/asunny.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+
+
+</script>
+<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>
+
+</html>
