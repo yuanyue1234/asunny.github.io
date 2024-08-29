@@ -29,7 +29,7 @@
     "nightTheme": "dark_colorblind",
     "urlMode": "pinyin",
     "style": "",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
+    "script":"<script src='https://asunny-1314135129.cos.ap-guangzhou.myqcloud.com/img/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "indexStyle":"",
     "indexScript": "",
     "showPostSource": 1,
